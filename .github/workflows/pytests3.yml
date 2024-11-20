@@ -15,8 +15,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      FULL_NAME: "Белов Никита Юрьевич"
-      GROUP_NUMBER: "M3116"
+      FULL_NAME: "Прилепо Поилина"
+      GROUP_NUMBER: "17"
 
     steps:
       - name: Checkout repository
