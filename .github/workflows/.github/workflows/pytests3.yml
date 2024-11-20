@@ -26,7 +26,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python -m unittest discover -s /home/runner/work/geometric_lib/geometric_lib/featTests
+          python -m unittest discover -s /home/runner/work/geometric_lib/geometric_lib/Tests
 
       - name: Lint code with flake8
         run: |
