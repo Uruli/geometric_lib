@@ -15,8 +15,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      FULL_NAME: "Прилепо Поилина"
-      GROUP_NUMBER: "17"
+      FULL_NAME: "Прилепо Полина"
+      GROUP_NUMBER: "M3117"
 
     steps:
       - name: Checkout repository
