@@ -19,9 +19,9 @@ jobs:
         with:
           python-version: '3.13'
       #fourth step
-      - name: Run unit tests
+      - name: Run tests
         run: |
-          python -m unittest discover -s /home/runner/work/geometric_lib/geometric_lib/tests
+          python -m unittest discover -s /home/runner/work/geometric_lib/geometric_lib/featTests
           
         #fifth step
       - name: Lint code with flake8
