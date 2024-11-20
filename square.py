@@ -1,7 +1,10 @@
 def area(a):
-    """Принимает число a, возвращает квадрат числа a."""
-    return a ** 2
+    if a < 0:
+        raise AssertionError("Can't")
+    return a * a
+
 
 def perimeter(a):
-    """Принимает число a, возвращает 4, умноженные на a."""
+    if a < 0:
+        raise AssertionError("Can't")
     return 4 * a
