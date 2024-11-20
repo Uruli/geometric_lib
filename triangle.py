@@ -1,8 +1,14 @@
+from math import sqrt
+
+
 def area(a, b, c):
-    """Принимает числа a, b, c, возвращает площадь, делённую на два."""
-    s = (a + b + c) / 2
-    return (s * (s - a) * (s - b) * (s - c)) ** 0.5
+    if a < 0 or b < 0 or c < 0:
+        raise AssertionError("Can't")
+    x = (a + b + c) / 2
+    return sqrt(x * (x - a) * (x - b) * (x - c))
+
 
 def perimeter(a, b, c):
-    """Вычисляет периметр треугольника по сторонам a, b, c."""
+    if a < 0 or b < 0 or c < 0:
+        raise AssertionError("Can't")
     return a + b + c
